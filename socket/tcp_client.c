@@ -48,5 +48,6 @@ int main(int argc, char *argv[])
 		exit (1); 
 	} 
 	printf("Received: %s\n", buf); 
+	//close socket
 	close (csock); 
 }
